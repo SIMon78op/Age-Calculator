@@ -1,0 +1,41 @@
+*
+{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,rgb(127, 225, 100),rgb(100,217,225));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box
+{
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+}
+
+input
+{
+    padding:10px;
+     border-radius: 5px;
+}
+
+h1{
+    color:coral;
+}
+
+input[type="button"]
+{
+    background-color: aqua;
+}
+
+label
+{
+color: blue;
+}
