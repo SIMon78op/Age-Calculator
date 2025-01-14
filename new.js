@@ -16,7 +16,7 @@ function claculate()
         day=currentday-birthday;
     }
     else{
-        day=currentday + new Date(currentyear,currentmonth).getData()-birthday;
+        day=currentday + new Date(currentyear,currentmonth)-birthday;
         currentmonth--;   
     }
     if(currentmonth>=birthmonth)
